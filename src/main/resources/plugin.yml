@@ -1,0 +1,19 @@
+name: Rift-Meteors
+main: me.berry.oreMeteor.OreMeteor
+version: 1.0.0
+api-version: 1.12
+depend:
+  - WorldGuard
+commands:
+  clearmeteors:
+    description: Clears all crashing and crashed meteors.
+    permission: meteor.admin
+  spawnmeteor:
+    description: Force spawns a meteor configured in the console.
+    permission: meteor.admin
+  reloadmeteors:
+    description: Reloads the config values.
+    permission: meteor.admin
+  clearmeteorstands:
+    description: Clears the all the animation armorstands for the plugin.
+    permission: meteor.admin

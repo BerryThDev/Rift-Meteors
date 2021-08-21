@@ -1,0 +1,22 @@
+Meteors:
+  iron:
+    name: "Iron Meteor"
+    world: "world"
+    world-guard-region: "iron-meteor" # Make sure it is taller than the tallest part of the region at reaches the lowest part
+    ore: "QUARTZ_ORE"
+    delay-min: "10s"
+    delay-max: "30s"
+    expire-after: "1y"
+    rewards:
+      1:
+        item: IRON_ORE
+        amount: 5
+      2:
+        item: DIAMOND
+        amount: 10
+Messages:
+  spawn-message: "==meteor_name== has smashed into the atmosphere at ==x== ==y== ==z== and is heading for the ground."
+  hit-message: "==meteor_name== landed at ==x== ==y== ==z==."
+  expire-message: "==meteor_name== has leeched into the soil and lost it's value."
+  reward-message: "==meteor_name== gave you ==item_reward==. Remaining ==meteor_current_durability==/==meteor_overall_durability==."
+  claimed-message: "==meteor_name== was harvested by ==meteor_harvester==."
